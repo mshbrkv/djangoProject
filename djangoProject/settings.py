@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)xkr$4q2htq)@#cmr$7j4l1%x%3#_(wm39%92m35v-_sxygr=+
 DEBUG = True
 CORS_ORIGIN_ALLOW_ALL = DEBUG
 
-ALLOWED_HOSTS = ['mshbrkv.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "rest_framework",
     "corsheaders",
     'core'
 ]
